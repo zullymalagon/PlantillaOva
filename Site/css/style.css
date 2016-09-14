@@ -1,0 +1,59 @@
+body{
+    background: url(../img/fondo.jpg) no-repeat fixed center center #FDAE25;
+	background-size: cover; /*Imagen de fondo se ajuste a la pagina*/
+	
+}
+
+
+nav{
+    border-radius:5px;
+   	overflow:hidden;
+    padding:20px;
+    width:auto;
+	background:#006680;
+	
+	}
+
+nav ul{
+    list-style:none;
+    margin:0 5px 0 5px;
+    padding:0;
+	float:right;
+}
+
+nav ul li{
+	float:left;
+	list-style-type: none;
+	padding: 15px;
+	margin: 1px;
+	text-align:right;
+	font-size:24px;
+	color:#FFFFFF;
+    
+}
+
+nav ul li:hover{
+ 	
+	background-image:radial-gradient(#01A3CB, #006A85);
+	border-radius:5px;
+    box-shadow:  1px -1px 0px #999;
+
+	
+	
+}
+
+
+/*clases*/
+.menu:link{
+color: white; 
+text-decoration: none;
+}
+.menu:visited{
+color: white; 
+text-decoration: none;
+}
+.menu:active{
+color: white; 
+text-decoration: none;
+}
+
