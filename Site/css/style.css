@@ -51,7 +51,26 @@ header{
 	height: 300px;
 	background-image:radial-gradient(#B3B3B3, #FFFFFF);
 	border-radius:20px;
+	margin-top: 30px;
 }
+
+#texto p{
+	width: 460px;
+	font-size:46px;
+	line-height:1.2em;
+	color:#006680;
+	text-align:center;
+	float:left;
+}
+
+#texto p span {
+	font-size:75px;
+	color: #ff5900;
+	display:block;
+	letter-spacing:-2px;
+	margin-bottom:-10px;
+}
+
 
 #contenido{
 	width: 1250px;
@@ -101,8 +120,42 @@ aside div{
 	padding-top: 60px;
 }
 
-	
-	
+aside article{
+	background:#FFFFFF;
+	width: 230px;
+	height: 250px;
+	margin:auto;
+	margin-top: 10px;
+	background-image:radial-gradient(#FFFFFF, #F9EECC);
+}
+
+footer{
+	width: 1250px;
+	height: 90px;
+	float:left;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image:radial-gradient(#006680, #006A85);
+}
+
+#piepagina{
+	font-size: 18px;
+	line-height: 24px;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+	text-shadow:#999999;
+	padding: 1px;
+}
+
+
+
+p{
+	font-size: 18px;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
 }
 
 
@@ -120,4 +173,45 @@ color: white;
 text-decoration: none;
 }
 
+.galeria{
+	width: 570px;
+	height: 160px;
+	margin-left:30px;
+	margin-top: 50px;
+	float:left;
+	background-size: 100% 100%;
+	animation-name: banner;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
 
+@keyframes banner{
+	0%,20% {
+	background-image:url(../img/imagen1.png);
+	opacity: 1;
+	}
+	21%, 24%{
+	opacity: 0.1;
+	}
+	25%,45% {
+	background-image:url(../img/imagen2.jpg);
+	opacity: 1;
+	}
+	46%, 49%{
+	opacity: 0.1;
+	}
+	50%,70% {
+	background-image:url(../img/imagen3.png);
+	opacity: 1;
+	}
+	71%, 74%{
+	opacity: 0.1;
+	}
+	75%,95% {
+	background-image:url(../img/imagen4.png);
+	opacity: 1;
+	}
+	96%, 100%{
+	opacity: 0.1;
+	}
+}
