@@ -204,6 +204,7 @@ text-decoration:none;
 	animation-iteration-count: infinite;
 }
 
+
 @keyframes banner{
 	0%,20% {
 	background-image:url(../img/imagen1.png);
