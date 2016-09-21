@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class"no-js">
+<html lang="es" class="no-js">
 <head>
 	<meta charset="utf-8">
 	<meta content="Zully Katerin Malagon" name="author">
@@ -9,35 +9,35 @@
 	<!--Enlazar hoja de estilos -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-		
+	
+	<!--Configuracion de librerias -->
+	<!-- Al colocar las librerias fuera del head no hay compatibilidad con Internet Explorer 6,7,8-->
+	<script src="js/modernizr.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/jquery-3.1.0.js"></script>
 </head>
 
 <body>
-    <div>  
-		 <nav>
-		    <ul>
-    			<li><a href="index.html" class="menu" >Inicio</a></li>
-   				<li><a href="#" class="menu">Lecturas</a></li>
-    			<li><a href="#" class="menu">Multimedia</a></li>
-    			<li><a href="#" class="menu">Actividades</a></li>
-    			<li><a href="#" class="menu">Autores</a></li>
-			</ul>
-      </nav>
-	</div>
+	<nav>
+	    <ul>
+    		<li><a href="index.html" class="menu" >Inicio</a></li>
+   			<li><a href="#" class="menu">Lecturas</a></li>
+    		<li><a href="#" class="menu">Multimedia</a></li>
+    		<li><a href="#" class="menu">Actividades</a></li>
+    		<li><a href="#" class="menu">Autores</a></li>
+		</ul>
+    </nav>
 	
-    <div>
-        <header>
-                <div id="texto">
-					<p>Objeto virtual de aprendizaje para <span>xxxxxxxxxx</span></p>
-				</div>
-				<div class="galeria">
-				</div>
-				
-		</header>
-    </div>
+    <header>
+            <div id="texto">
+				<p>Objeto virtual de aprendizaje para <span>Diseño de sitios web</span></p>
+			</div>
+			<div class="galeria">
+			</div>		
+	</header>
 
 	<div id="contenido">
-        <section>
+        <section id="principal">
             <h1>  Diseño de sitios web </h1>
 			<p> Contenido de la pagina </p>   
 		 </section>
@@ -46,7 +46,6 @@
 			<section id="noticia">
 				<h3>Noticias</h3>
 			</section>
-			
 			<div>
 				<article>
 					<h4>Articulo 1</h4>
@@ -58,20 +57,24 @@
 		 </aside>
 		 
 		 <footer>
-		 	<div id=imgpie>
-			<a title="Unad" href="https://www.unad.edu.co/"><img src="img/logo.png" alt="Unad" /></a>
-			</div>
-        	<p id="piepagina"> Diseño de sitios web 
+		 	<img src="img/logo.png" alt="Unad" />
+		   	<p id="piepagina">
+			Universidad nacional abierta y a distancia
+			<br>Diseño de sitios web 
+			<br>301122
 			<br> 2016
 			</p>
-    	</footer> 
+			
+			<div id=logoscalidad>
+			 <img src="img/certificado.png" alt="Certificado"/>
+			 <img src="img/calidad1000.png" alt="Calidad1000"/>
+			 <img src="img/calidad9001.png" alt="Calidad9001"/>
+			 <img src="img/calidad14001.png" alt="Calidad14001"/>
+			 <img src="img/calidad18001.png" alt="Calidad18001"/>
+			</div>
+		</footer> 
 		 
     </div>
 </body>
-
-	<!--Configuracion de librerias -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/prefixfree.min.js"></script>
-	<script src="js/jquery-3.1.0.js"></script>
 
 </html>
