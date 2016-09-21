@@ -205,7 +205,7 @@ text-decoration:none;
 /* Transicion de imagenes, compatible con Google chrome y opera*/
 @keyframes banner{
 	0%,20% {
-	background-image:url(../img/1.png);
+	background-image:url(../img/imagen1.png);
 	opacity: 1;
 	}
 	21%, 24%{
