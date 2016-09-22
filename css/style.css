@@ -149,8 +149,8 @@ footer{
 	margin:auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#007997', endColorstr='#006680')";
-	background:radial-gradient(#006680, #007997);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#769DA6', endColorstr='#006680')";
+	background:linear-gradient(to top,#006680, #8DAEB7);
 	text-align:center;
 }
 
